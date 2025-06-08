@@ -3,7 +3,7 @@ name: Build and Push Docker Image1
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
