@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.13-slim-bookworm
 
 WORKDIR /app
 COPY socks5_server.py .
