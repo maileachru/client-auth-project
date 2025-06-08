@@ -1,7 +1,7 @@
 FROM python:3.13-slim-bookworm
 
 WORKDIR /app
-COPY socks5_server.py .
+COPY client_auth_server.py .
 
 EXPOSE 1080
 
